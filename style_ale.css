@@ -35,7 +35,9 @@ footer{
 .logo_footer{
   width: 35px;
 }
-  
+.insignia{
+    width: 100px;
+}  
 [class*="span-"] {
     padding: 10px;
 }
