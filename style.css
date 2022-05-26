@@ -1,0 +1,248 @@
+body{
+    background: url(imagenes/fondo_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #10A5FA;
+}
+.caja-superior{
+    width: 1060px;
+    margin: 0 auto;
+
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color:#64C6FE ;
+    padding-bottom: 20px;
+}
+.logo-a{
+    margin-top: 20px;
+    margin-left: -0px;
+}
+/* Area de Cuadros */
+
+.caja-media{
+    width:1060px;
+    margin: 0 auto;
+}
+
+.cuadros-texto, :focus{
+    outline:none;
+}
+
+.section1{
+    display: inline-block;
+}
+
+.text-area{
+    width: 500px;
+    height: 350px;
+    margin-right: 40px;
+    background: #AAB2D5;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    resize: none;
+    border-radius: 5%;
+    opacity: 0.5;
+
+}
+
+.texto-advertencia{
+    text-align: center;
+    font-size: 22px;
+    color: #64C6FE;
+}
+
+.icono-advertencia{
+    width: 25px;
+}
+
+.text-area2{
+    width: 500px;
+    height: 350px;
+    background: #AAB2D5;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    resize: none;
+    border-radius: 5%;
+    opacity: 0.5;
+}
+
+.text-area2::placeholder{
+    padding-bottom: 300px;
+    background-position: center 30px;
+    background-image: url(imagenes/encripta.jpeg);
+    background-repeat: no-repeat;
+}
+
+.texto-copiado {
+    color: white;
+    background-color: #0A3871;
+    border-radius: 5px;
+    margin: 5px 0 0 130px;
+    opacity: 1;
+    visibility: hidden;
+    text-align: center;
+    width: 40%;
+    transition: all 0.3s;
+    margin: 0 auto;
+    margin-top: 5px;
+
+}
+
+
+/* Area de Botones */
+
+.botones{
+    text-align: center;
+
+    width: 100%;
+    margin: 19px 0;
+    outline:none;
+
+}
+.encriptar{
+    width: 150px;
+    margin: 0 20px 2px -20px;
+    background-color: #0A3871;
+    font-size: 30px;
+    color: #E9ECF8;
+    border-radius: 5px;
+    border:none;
+    transition: 1s;
+    padding: 5px;
+
+}
+
+.encriptar:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+
+.descencriptar{
+    width: 220px;
+    background-color: #0A3871;
+    font-size: 30px;
+    color: #E9ECF8;
+    border-radius: 5px;
+    border:none;
+    transition: 1s;
+    padding: 5px;
+
+}
+
+.descencriptar:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.area-copiar{
+    width: 100%;
+    text-align: center;
+
+}
+
+.copiar{
+    width: 200px;
+    background-color: #0A3871;
+    font-size: 30px;
+    color: #E9ECF8;
+    border-radius: 5px;
+    border:none;
+    transition: 1s; 
+    margin: 20px auto;
+    padding: 5px;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.copiar:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.show{
+    opacity: 1;
+    visibility: visible;
+}
+
+.imagen-portapapeles{
+    width: 20px;
+}
+
+footer{
+    background-color: #10A5FA;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo_footer{
+    width: 40px;
+}
+
+@media screen and (max-width:500px){
+   .caja-superior, .caja-media{
+       width: auto;
+    }
+
+    .section1, .section2{
+        width: 95%;
+        margin: 0 10px;
+    }
+    .section2{
+        display: block;
+    }
+
+    .text-area{
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .text-area2{
+        width: 100%;
+        
+    }
+
+    .encriptar{
+        margin-right: 3px;
+        margin-left: 3px;
+        
+    }
+    
+    
+}
+
+@media screen and (max-width:950px){
+    .caja-superior, .caja-media{
+        width: auto;
+     }
+ 
+     .section1, .section2{
+         width: 95%;
+         margin: 0 10px;
+     }
+     .section2{
+         display: block;
+     }
+ 
+     .text-area{
+         width: 100%;
+         margin: 0px;
+     }
+     
+     .text-area2{
+         width: 100%;
+         
+     }
+ 
+     .encriptar{
+         margin-left: 3px;
+         
+     }
+}
